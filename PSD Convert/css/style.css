@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EFEFEF;
+}
+.navbar{
+    padding: 0px;
+    font-size: 20px;
+}
+.navbar .nav-item :hover{
+    background-color: #0C377C;
+    color: white!important;
+    height: auto;
+}
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.image{
+    background: url(../img/foter.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width:575px) {
+    .image{
+        width:382%
+    }
+}
+@media (min-width:576px) {
+    .image{
+        width:212%
+    }
+}
+@media (min-width:768px) {
+    .image{
+        width:159%
+    }
+}
+@media (min-width:992px) {
+    .image{
+        width:119%
+    }
+}
+@media (min-width:1200px) {
+    .image{
+        width:100%
+    }
+}
+.fst{
+    margin-top: 190px;
+    color: white;
+}
+.snd{
+    margin-top: 190px;
+    color: white;
+}
+.trd{
+    margin-top: 190px;
+    color: white;
+}
+.frt{
+    margin-top: 190px;
+    color: white;
+    text-align: right;
+}
+input[type="text"] {
+    width: auto;
+    height: 40px;
+    padding-right: 50px;
+    border-radius: 12px;
+    padding: 15px;
+    border: none;
+}
+input[type="submit"] {
+    margin-left: -68px;
+    height: 40px;
+    width: auto;
+    background: #E4E3E3;
+    color: gray;
+    border: none;
+    border-radius: 12px;
+}
+p{
+    letter-spacing: .5px;
+    line-height: 10px;
+}
